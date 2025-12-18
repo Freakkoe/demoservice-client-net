@@ -60,6 +60,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\SF1520\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Token\AccessToken.cs" />
     <Compile Include="Token\CertificateLoader.cs" />
     <Compile Include="Token\MutualCertificateWithMessageSecurityBinding.cs" />
@@ -95,6 +100,36 @@
     <None Include="Service References\DemoService\ServiceplatformFault_1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\SF1520\AuthorityContext_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\CallContext_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\DemoTokenClient.SF1520.PersonLookupResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SF1520\DemoTokenClient.SF1520.PersonLookupResponseType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SF1520\InvocationContext_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\PersonBaseDataExtendedService.wsdl" />
+    <None Include="Service References\SF1520\PersonBaseDataExtendedServiceMsg.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\PersonBaseDataExtendedServiceTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\PNR_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\SF1520\policies.wsdl" />
+    <None Include="Service References\SF1520\ServiceplatformFaultMessage.wsdl" />
+    <None Include="Service References\SF1520\ServiceplatformFault_1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -115,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\DemoService\" />
+    <WCFMetadataStorage Include="Service References\SF1520\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\DemoService\configuration91.svcinfo" />
@@ -124,6 +160,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\DemoService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SF1520\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SF1520\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SF1520\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

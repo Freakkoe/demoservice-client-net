@@ -13,7 +13,7 @@ namespace DemoTokenClient
 
         // SHA-1 thumbprint of the client certificate to call STS and Serviceplatformen.
         
-        public const string ClientCertificateThumbprint = "A8 2C EA 2B 27 ED B5 EB 7D D4 F4 38 57 FD 70 A6 AC 49 16 0B";
+        public const string ClientCertificateThumbprint = "63 9b 5f f8 e5 32 46 dd 44 8b ab 49 6b 6b bc 2f b5 e4 85 fc";
 
 
         public const StoreLocation ClientCertificateStoreLocation = StoreLocation.CurrentUser;
@@ -23,7 +23,7 @@ namespace DemoTokenClient
         // Entity ID for the Serviceplatform service to fetch token for and call.
         // This ID can be found in the service contract package from the Serviceplatform as 'service.entityID' inside /sp/service.properties.
         // public const string ServiceEntityId = "http://demo.prod-serviceplatformen.dk/service/DemoService/1"; 
-        public const string ServiceEntityId = "http://entityid.kombit.dk/service/demoservicerest/1";
+        public const string ServiceEntityId = "http://cpr.serviceplatformen.dk/service/personbasedataextended/5";
 
         // The STS issuer for token requests.
         public const string StsIssuer = "https://adgangsstyring.eksterntest-stoettesystemerne.dk/";
@@ -47,8 +47,8 @@ namespace DemoTokenClient
 
         // The CVR of the municipality involved in the service agreement.
         // Used in the token request to STS.
-          public const string Cvr = "29189846";
-        // public const string Cvr = "19435075";
+        // public const string Cvr = "29189846";
+         public const string Cvr = "19435075";
 
         // Below are some of the optional values that can be used in the CallContext.
         // public const string AccountingInfo = ".Net DemoService sample call";
