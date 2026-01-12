@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCore
 {
     // TO_BE_MODIFIED
     // All these constants can be modified to configure the client.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="957d8913-a22d-4f6b-98a7-219e5f9b48ad" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\magje\Downloads\SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)\SF1520_v4_Teknisk_Spec\PersonBaseDataExtendedService\wsdl\token\PersonBaseDataExtendedService.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PersonBaseDataExtendedServiceTypes.xsd" MetadataType="Schema" ID="b8eccfb4-8bd8-45dc-b942-8d64bd64e770" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/xsd/PersonBaseDataExtendedServiceTypes.xsd" />
+    <MetadataFile FileName="InvocationContext_1.xsd" MetadataType="Schema" ID="f2ac5376-87ac-45b7-97f8-eb74878ed2be" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/InvocationContext_1.xsd" />
+    <MetadataFile FileName="ServiceplatformFault_1.xsd" MetadataType="Schema" ID="dda3c022-25de-45f1-9a18-1fe014540591" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/ServiceplatformFault_1.xsd" />
+    <MetadataFile FileName="PersonBaseDataExtendedServiceMsg.xsd" MetadataType="Schema" ID="4b81d377-f233-4a07-ae18-0a4f3b2ccd86" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/PersonBaseDataExtendedServiceMsg.xsd" />
+    <MetadataFile FileName="PersonBaseDataExtendedService.wsdl" MetadataType="Wsdl" ID="2338edd7-acc0-46c6-9b93-178212709fa8" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/wsdl/token/PersonBaseDataExtendedService.wsdl" />
+    <MetadataFile FileName="ServiceplatformFaultMessage.wsdl" MetadataType="Wsdl" ID="f43ff50e-731b-404c-bf16-f50581b5e27d" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/ServiceplatformFaultMessage_1.wsdl" />
+    <MetadataFile FileName="CallContext_1.xsd" MetadataType="Schema" ID="948d00dc-0f68-4605-ad1f-dd023c9d451b" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/CallContext_1.xsd" />
+    <MetadataFile FileName="policies.wsdl" MetadataType="Wsdl" ID="4e3d2c65-2914-47c3-ab84-13d9e1a52371" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/wsdl/token/policies.wsdl" />
+    <MetadataFile FileName="PNR_1.xsd" MetadataType="Schema" ID="da5de1b0-2847-4253-8938-7263d78fda62" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/PNR_1.xsd" />
+    <MetadataFile FileName="AuthorityContext_1.xsd" MetadataType="Schema" ID="731a2078-5958-4296-97c5-3e6fef526cff" SourceId="1" SourceUrl="file:///C:/Users/magje/Downloads/SF1520+-+Dokumentationspakke+til+CPR+replika+opslag_4.0 (1)/SF1520_v4_Teknisk_Spec/PersonBaseDataExtendedService/sp/AuthorityContext_1.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

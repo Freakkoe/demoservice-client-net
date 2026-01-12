@@ -7,7 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.ServiceModel;
 using System.ServiceModel.Security;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCore
 {
     public static class TokenFetcher
     {
