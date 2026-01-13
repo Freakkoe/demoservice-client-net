@@ -3,9 +3,9 @@ using System.IdentityModel.Tokens;
 using System.Net;
 using System.Net.Security;
 using System.ServiceModel;
-using DemoTokenClient.SF1520;
+using Centralflade.IntegrationCore.SF1520;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCore
 {
     public class SF1520Client
     {

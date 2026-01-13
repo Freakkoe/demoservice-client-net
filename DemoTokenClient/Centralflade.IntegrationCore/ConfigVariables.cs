@@ -5,7 +5,7 @@ namespace Centralflade.IntegrationCore
     // TO_BE_MODIFIED
     // All these constants can be modified to configure the client.
     // See the document "Programmers Guide - Serviceplatformen" for details.
-    static class ConfigVariables
+    public static class ConfigVariables
     {
         // The alias used for Serviceplatformen endpoint identity check.
         

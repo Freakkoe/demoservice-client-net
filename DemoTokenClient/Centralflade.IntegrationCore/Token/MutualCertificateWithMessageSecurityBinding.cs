@@ -4,7 +4,7 @@ using System.ServiceModel.Channels;
 using System.ServiceModel.Security;
 using System.ServiceModel.Security.Tokens;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCore
 {
     public class MutualCertificateWithMessageSecurityBinding : CustomBinding
     {

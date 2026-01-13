@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 using System.Xml.Serialization;
-using DemoTokenClient.Token;
+using Centralflade.IntegrationCore;
 
 namespace DemoTokenClient
 {
