@@ -3,6 +3,7 @@ using System.IO;
 using System.Text;
 using System.Xml.Serialization;
 using DemoTokenClient.Token;
+using Centralflade.IntegrationCoreV2.Token;
 
 namespace DemoTokenClient
 {

@@ -1,19 +1,21 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace DemoTokenClient
+namespace Centralflade.IntegrationCoreV2
 {
-    // TO_BE_MODIFIED
-    // All these constants can be modified to configure the client.
-    // See the document "Programmers Guide - Serviceplatformen" for details.
-    static class ConfigVariables
+    public static class ConfigVariables
     {
         // The alias used for Serviceplatformen endpoint identity check.
-        
+
         public const string ServiceCertificateAlias = "SP_EXTTEST_Signing_1";
         public const string ClientCertificateThumbprint = "639b5ff8e53246dd448bab496b6bbc2fb5e485fc";
-                                    
 
-        public const StoreLocation ClientCertificateStoreLocation = StoreLocation.CurrentUser;  
+
+        public const StoreLocation ClientCertificateStoreLocation = StoreLocation.CurrentUser;
 
         public const StoreName ClientCertificateStoreName = StoreName.My;
 
@@ -23,12 +25,12 @@ namespace DemoTokenClient
 
         // The STS issuer for token requests.
         public const string StsIssuer = "https://adgangsstyring.eksterntest-stoettesystemerne.dk/";
-        
+
         // The endpoint of the STS (Secure Token Service).
         public const string StsEndpoint = "https://n2adgangsstyring.eksterntest-stoettesystemerne.dk/runtime/services/kombittrust/14/certificatemixed";
 
         // The alias used for STS endpoint identity check.
-	    public const string StsCertificateAlias = "ADG_EXTTEST_Adgangsstyring_2";
+        public const string StsCertificateAlias = "ADG_EXTTEST_Adgangsstyring_2";
 
 
         // SHA-1 thumbprint of the certificate used for signing by STS.

@@ -4,6 +4,8 @@ using System.Net;
 using System.Net.Security;
 using System.ServiceModel;
 using DemoTokenClient.DemoService;
+using Centralflade.IntegrationCoreV2;
+using Centralflade.IntegrationCoreV2.Token;
 
 namespace DemoTokenClient.Token
 {

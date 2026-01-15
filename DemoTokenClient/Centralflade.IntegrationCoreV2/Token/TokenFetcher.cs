@@ -1,20 +1,24 @@
 ﻿using System;
-using System.IdentityModel.Protocols.WSTrust;
-using System.IdentityModel.Tokens;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+using System.IdentityModel.Protocols.WSTrust;
+using System.IdentityModel.Tokens;
 using System.ServiceModel;
 using System.ServiceModel.Security;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCoreV2.Token
 {
     public static class TokenFetcher
     {
         public static SecurityToken IssueToken(string entityId)
         {
             var certificate = CertificateLoader.LoadCertificate(
-                ConfigVariables.ClientCertificateStoreName, 
-                ConfigVariables.ClientCertificateStoreLocation, 
+                ConfigVariables.ClientCertificateStoreName,
+                ConfigVariables.ClientCertificateStoreLocation,
                 ConfigVariables.ClientCertificateThumbprint);
             var absoluteUri = new Uri(entityId).AbsoluteUri;
             return SendSecurityTokenRequest(absoluteUri, certificate, ConfigVariables.Cvr);

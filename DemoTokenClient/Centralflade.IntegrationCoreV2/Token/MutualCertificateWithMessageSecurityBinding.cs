@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Security;
 using System.ServiceModel.Security.Tokens;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCoreV2.Token
 {
     public class MutualCertificateWithMessageSecurityBinding : CustomBinding
     {

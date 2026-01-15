@@ -1,11 +1,15 @@
 ﻿using System;
-using System.IdentityModel.Tokens;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Security;
+using System.Text;
+using System.Threading.Tasks;
+using System.IdentityModel.Tokens;
 using System.ServiceModel;
-using DemoTokenClient.SF1520;
+using Centralflade.IntegrationCoreV2.SF1520;
 
-namespace DemoTokenClient.Token
+namespace Centralflade.IntegrationCoreV2.Token
 {
     public class SF1520Client
     {
